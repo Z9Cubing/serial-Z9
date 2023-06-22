@@ -1,10 +1,10 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="t|S:fLB*vWveH_!UL?(B" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="n/gzUc_DY%AX{FZKyu#`"><field name="i">IconNames.Duck</field><next><block type="device_show_leds" id="P^UeH$2?.{TH|N_ck*$("><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="lb95MmSCx_jUJgICkQ~:">Count</variable></variables><block type="pxt-on-start" id="t|S:fLB*vWveH_!UL?(B" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="n/gzUc_DY%AX{FZKyu#`"><field name="i">IconNames.Duck</field><next><block type="variables_set" id="f$Qs^UsC@FI,eoi_kTZ_"><field name="VAR" id="lb95MmSCx_jUJgICkQ~:">Count</field><value name="VALUE"><shadow type="math_number" id="COw:u[BStJW@%_+B|7Ig"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="P^UeH$2?.{TH|N_ck*$("><field name="LEDS">`
         # # . # # 
         # # . # # 
         . . . . . 
         # . . . # 
         . # # # .
-        `</field></block></next></block></statement></block><block type="device_forever" id="au2#S^zQn?sSx?|_NOts" x="205" y="0"></block><block type="device_show_leds" id="wR!~n=Ay.f,hv0%(`_E6" disabled="true" x="505" y="-1"><field name="LEDS">`
+        `</field></block></next></block></next></block></statement></block><block type="device_forever" id="au2#S^zQn?sSx?|_NOts" x="205" y="0"></block><block type="device_show_leds" id="wR!~n=Ay.f,hv0%(`_E6" disabled="true" x="505" y="-1"><field name="LEDS">`
         # # # # # 
         . . . # . 
         # # # # # 
@@ -16,4 +16,4 @@
         # . # . # 
         . # . # . 
         # . # . #
-        `</field><next><block type="basic_show_icon" id="Ehu36y/#sV{+nl71_8VY" disabled="true"><field name="i">IconNames.Sad</field></block></next></block></next></block></next></block></next></block></xml>
+        `</field><next><block type="basic_show_icon" id="Ehu36y/#sV{+nl71_8VY" disabled="true"><field name="i">IconNames.Sad</field></block></next></block></next></block></next></block></next></block><block type="device_forever" id="F;D8^oM|U]=R0*(Dn@B=" x="-306" y="471"><statement name="HANDLER"><block type="device_while" id="B=4r{59I)Y.Hlptm/$Cx"><value name="COND"><shadow type="logic_boolean" id="=X6y:cyA)_I8Kv2r2H_%"><field name="BOOL">FALSE</field></shadow><block type="logic_operation" id="v7[011BTX%Ewk$oT)Pg@"><field name="OP">AND</field><value name="A"><block type="logic_compare" id="^Alzn{bN%B}[K*~WJ4Z7"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="AOsyR(6uSiwYarCxiFAm" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id=";B$oc{/PK$1{7*]lHmst"><field name="name">DigitalPin.P2</field></block></value><value name="B"><shadow type="math_number" id="/L=QAUKNK|TnLA;t4Wm-"><field name="NUM">1</field></shadow></value></block></value></block></value><statement name="DO"><block type="serial_writeline" id=",,AQd_~a.p/+hX|1#99m"><value name="text"><shadow type="text" id="glv|B+n9b4mJ)Jk*s^d}"><field name="TEXT">Pin 2 has charge!</field></shadow></value></block></statement></block></statement></block><block type="variables_get" id="U,fyxm%ST4=1c-8Z0t^:" disabled="true" x="223" y="707"><field name="VAR" id="lb95MmSCx_jUJgICkQ~:">Count</field></block></xml>
